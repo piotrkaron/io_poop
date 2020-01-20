@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="48e39343-6a41-4aba-b3f6-ab8469dcf381" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1W4L3bb0s6B7NblEs7J4v8YQ1oR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projekt2_accept_test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="io" />
+      <recent name="io.entity" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="io.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/io/entity" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'projekt2.test'">
+    <configuration name="ControlTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.ControlTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="EntityTestSuite" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.EntityTestSuite&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RentAppMocksTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.RentAppMocksTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RentAppMocksTest.givenNonExistentCredentials_shouldReturnFalse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.RentAppMocksTest.givenNonExistentCredentials_shouldReturnFalse&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'projekt2.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'projekt2.test'" />
+        <item itemvalue="Gradle.RentAppMocksTest" />
+        <item itemvalue="Gradle.EntityTestSuite" />
+        <item itemvalue="Gradle.RentAppMocksTest.givenNonExistentCredentials_shouldReturnFalse" />
+        <item itemvalue="Gradle.ControlTestSuite" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48e39343-6a41-4aba-b3f6-ab8469dcf381" name="Default Changelist" comment="" />
+      <created>1578403721923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578403721923</updated>
+      <workItem from="1578403723955" duration="800000" />
+      <workItem from="1578844129007" duration="9192000" />
+      <workItem from="1578894662866" duration="13000" />
+      <workItem from="1578926571230" duration="162000" />
+      <workItem from="1578932084777" duration="5689000" />
+      <workItem from="1579004410341" duration="154000" />
+      <workItem from="1579005740707" duration="2840000" />
+      <workItem from="1579029423307" duration="89000" />
+      <workItem from="1579098638755" duration="634000" />
+      <workItem from="1579517740478" duration="2139000" />
+      <workItem from="1579521768145" duration="45000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="90" width="1720" height="890" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1578853215818">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="100" y="90" width="1720" height="890" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1578853215818" />
+    <state x="768" y="241" width="374" height="594" key="#com.intellij.ide.util.MemberChooser" timestamp="1578856933747">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="768" y="241" width="374" height="594" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1578856933747" />
+    <state x="236" y="406" width="487" height="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1578932831016">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="236" y="406" width="487" height="302" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1578932831016" />
+    <state x="718" y="200" key="#xdebugger.evaluate" timestamp="1578857481039">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="718" y="200" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1578857481039" />
+    <state x="1072" y="282" width="424" height="519" key="FileChooserDialogImpl" timestamp="1579005779985">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state x="743" y="282" width="424" height="519" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1578844216786" />
+    <state x="1072" y="282" key="FileChooserDialogImpl/0.27.3840.1053@0.27.3840.1053" timestamp="1579005779985" />
+    <state width="1878" height="336" key="GridCell.Tab.0.bottom" timestamp="1579008580928">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1579006311961" />
+    <state width="1878" height="336" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580928" />
+    <state width="1872" height="280" key="GridCell.Tab.0.bottom/54.28.3786.1052@54.28.3786.1052" timestamp="1578404527100" />
+    <state width="1878" height="336" key="GridCell.Tab.0.center" timestamp="1579008580925">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1579006311958" />
+    <state width="1878" height="336" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580925" />
+    <state width="1872" height="280" key="GridCell.Tab.0.center/54.28.3786.1052@54.28.3786.1052" timestamp="1578404527096" />
+    <state width="1878" height="336" key="GridCell.Tab.0.left" timestamp="1579008580922">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1579006311955" />
+    <state width="1878" height="336" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580922" />
+    <state width="1872" height="280" key="GridCell.Tab.0.left/54.28.3786.1052@54.28.3786.1052" timestamp="1578404527094" />
+    <state width="1878" height="336" key="GridCell.Tab.0.right" timestamp="1579008580926">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="486" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1579006311960" />
+    <state width="1878" height="336" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580926" />
+    <state width="1872" height="280" key="GridCell.Tab.0.right/54.28.3786.1052@54.28.3786.1052" timestamp="1578404527097" />
+    <state width="1878" height="336" key="GridCell.Tab.1.bottom" timestamp="1579008580933">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="351" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1578857513853" />
+    <state width="1878" height="336" key="GridCell.Tab.1.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580933" />
+    <state width="1878" height="336" key="GridCell.Tab.1.center" timestamp="1579008580930">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="351" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1578857513852" />
+    <state width="1878" height="336" key="GridCell.Tab.1.center/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580930" />
+    <state width="1878" height="336" key="GridCell.Tab.1.left" timestamp="1579008580929">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="351" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1578857513852" />
+    <state width="1878" height="336" key="GridCell.Tab.1.left/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580929" />
+    <state width="1878" height="336" key="GridCell.Tab.1.right" timestamp="1579008580932">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state width="1878" height="351" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1578857513852" />
+    <state width="1878" height="336" key="GridCell.Tab.1.right/0.27.3840.1053@0.27.3840.1053" timestamp="1579008580932" />
+    <state x="534" y="176" width="1022" height="737" key="SettingsEditor" timestamp="1578854210752">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="534" y="176" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1578854210752" />
+    <state x="736" y="468" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579007988224">
+      <screen x="0" y="27" width="3840" height="1053" />
+    </state>
+    <state x="736" y="468" width="448" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.3840.1053@0.27.3840.1053" timestamp="1579007988224" />
+    <state x="1305" y="238" width="418" height="616" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1578854133662">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1305" y="238" width="418" height="616" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1578854133662" />
+    <state x="2628" y="239" width="494" height="608" key="com.intellij.testIntegration.createTest.CreateTestDialog/54.28.3786.1052@54.28.3786.1052" timestamp="1578403791189" />
+    <state x="513" y="221" width="710" height="1031" key="dock-window-1" timestamp="1578844133301">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="513" y="221" width="710" height="1031" key="dock-window-1/0.27.1920.1053@0.27.1920.1053" timestamp="1578844133301" />
+    <state x="356" y="28" width="1418" height="1023" maximized="true" key="dock-window-1/54.28.3786.1052@54.28.3786.1052" timestamp="1578404408448" />
+    <state width="598" height="151" key="javadoc.popup.new" timestamp="1579522040071">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="598" height="151" key="javadoc.popup.new/0.27.1920.1053@0.27.1920.1053" timestamp="1579522040071" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1579098641311">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1579098641311" />
+    <state x="1246" y="231" width="1344" height="678" key="search.everywhere.popup/0.27.3840.1053@0.27.3840.1053" timestamp="1579007576950" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/entity/RentListTest.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
