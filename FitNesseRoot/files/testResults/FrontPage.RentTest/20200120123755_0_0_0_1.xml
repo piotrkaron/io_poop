@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<suiteResults>
+  <FitNesseVersion>v20200108</FitNesseVersion>
+  <rootPath>FrontPage.RentTest</rootPath>
+  <executionLog>
+    <testSystem>fit:fit.FitServer</testSystem>
+    <command>/usr/lib/jvm/java-11-openjdk-amd64/bin/java -cp /home/piotrek/studia/5_sem/io/projekt2/fitnesse-standalone.jar:/home/piotrek/studia/5_sem/io/projekt2/ fit.FitServer chaz 46245 3863</command>
+    <exitCode>1</exitCode>
+    <stdOut></stdOut>
+    <stdErr>Exception in thread "main" java.net.ConnectException: Connection refused (Connection refused)
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/java.net.Socket.connect(Socket.java:558)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:454)
+	at java.base/java.net.Socket.&lt;init&gt;(Socket.java:231)
+	at fit.FitServer.establishConnection(FitServer.java:150)
+	at fit.FitServer.establishConnection(FitServer.java:146)
+	at fit.FitServer.run(FitServer.java:54)
+	at fit.FitServer.main(FitServer.java:41)
+</stdErr>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+    <exception>FitClient external process terminated before a connection could be established</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>1033</totalRunTimeInMillis>
+</suiteResults>
+

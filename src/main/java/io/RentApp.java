@@ -8,6 +8,7 @@ import io.repository.ProductRepository;
 import io.repository.RentListRepository;
 import io.repository.UserRepository;
 
+import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.Map;
 import java.util.Optional;
@@ -30,7 +31,10 @@ public class RentApp {
         this.rentListRepository = rentListRepository;
     }
 
-    public boolean login(String password, String email) {
+    public boolean login(String password, String email) throws IOException {
+        if(password.isBlank() || email.isBlank())
+            throw new IOException();
+
         Optional<User> opt = userRepository.findUserByEmail(email);
         if (opt.isEmpty()) {
             showError("Bledne dane");

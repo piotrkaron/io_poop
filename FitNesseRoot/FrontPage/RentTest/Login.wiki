@@ -1,0 +1,9 @@
+---
+Test
+---
+!|io.TestCreateRent|
+|login|password|loginFail?|loginSuccess?|
+| a    |  a      | false   | false      |
+|ad   |     a   | false   | false      |
+|   a  |advvda  | false   | false      |
+|test |test123 | false   | true       |

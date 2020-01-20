@@ -6,6 +6,7 @@ import io.repository.RentListRepositoryImpl;
 import io.repository.UserRepository;
 import io.repository.UserRepositoryImpl;
 
+import java.io.IOException;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -19,7 +20,7 @@ public class Main {
             RentListRepositoryImpl.INSTANCE
     );
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         app.populateExampleData();
 
 	    String opt = "";
@@ -90,7 +91,7 @@ public class Main {
         app.showRentList();
     }
 
-    private static boolean login(){
+    private static boolean login() throws IOException {
         println("Email: ");
         String email = scan.nextLine();
 
