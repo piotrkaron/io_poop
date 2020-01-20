@@ -31,7 +31,7 @@ public class RentList {
     public void createRent(Product product, int quantity) {
         Optional<NewRentObject> newRentObjectOpt = find(product);
 
-        if (newRentObjectOpt.isEmpty()) {
+        if (!newRentObjectOpt.isPresent()) {
             addNew(new NewRentObject(product, quantity));
         } else {
             NewRentObject obj = newRentObjectOpt.get();

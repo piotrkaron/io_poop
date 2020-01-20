@@ -32,11 +32,11 @@ public class RentApp {
     }
 
     public boolean login(String password, String email) throws IOException {
-        if(password.isBlank() || email.isBlank())
+        if(password == null || password.isEmpty() || email == null ||  email.isEmpty())
             throw new IOException();
 
         Optional<User> opt = userRepository.findUserByEmail(email);
-        if (opt.isEmpty()) {
+        if (!opt.isPresent()) {
             showError("Bledne dane");
             return false;
         }
@@ -64,7 +64,7 @@ public class RentApp {
         }
 
         Optional<Map.Entry<Product, Integer>> prodOpt = productRepository.findById(productId);
-        if (prodOpt.isEmpty() || prodOpt.get().getValue() < quantity) {
+        if (!prodOpt.isPresent() || prodOpt.get().getValue() < quantity) {
             showError("Brak produktu lub zly kod (id)");
             return false;
         }
